@@ -231,3 +231,9 @@ function chunkArray(arr, size) {
 }
 
 console.log(chunkArray([1,2,3,4,5,6], 2)); 
+
+
+// Using ES6 module (array.js)
+export function greet() {
+  console.log("Hello from array.js!");
+}
